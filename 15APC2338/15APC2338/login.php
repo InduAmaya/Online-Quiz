@@ -26,7 +26,7 @@
 
 <html>
     <head>
-        <title>Quiz</title>
+        <title>Login</title>
 		<style type="text/css">
 			
 			h1{color: white; font-family: Monotype Corsiva; 
@@ -94,13 +94,13 @@
 			
 			<div class = "log right">
 				<form method="POST" action="login.php">
-					<h2>Enter Your Login Details Here</h2>
+					<h2>Login Details Here</h2>
 					<fieldset class="fieldst">
 						<div class="form_input">
-							Username: <br/><input type="text" name="username" placeholder="Enter Username"/>
+							Username: <br/><input type="text" name="username" class="form-control" placeholder="Enter Username"/>
 						</div>
 						<div class="form_input">
-							Password: <br/><input type="password" name="password" placeholder="Enter Password"/>
+							Password: <br/><input type="password" name="password" class="form-control" placeholder="Enter Password"/>
 						</div>
 						<input type="submit" name="submit" value="LOGIN">
 						<div class="new"><h3><a href="register.php"><br/>REGISTER</a></h3></div>
